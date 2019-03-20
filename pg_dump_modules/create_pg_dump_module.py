@@ -27,6 +27,7 @@ def create_pg_dump():
     
     print 'Backing up %s database to  %s' %s (DB_NAME, destination)
 
+
     ps = subprocess.Popen(
         ['pg_dump', '-U', DB_USER, '-Fc', DB_NAME, '-f', destination],
         stdout=subprocess.PIPE
