@@ -51,6 +51,5 @@ def upload_to_drive(source_path):
                             media_body=media,
                             fields='id').execute()
 
-    
-    print 'File ID: %s' % file.get('id')
 
+    #print 'File ID: %s' % file.get('id')

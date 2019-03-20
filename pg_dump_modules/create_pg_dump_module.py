@@ -25,7 +25,7 @@ def create_pg_dump():
 
     destination = r'%s/%s' % (BACKUP_PATH, filename)
     
-    print 'Backing up %s database to  %s' %s (DB_NAME, destination)
+    #print 'Backing up %s database to  %s' %s (DB_NAME, destination)
 
 
     ps = subprocess.Popen(
