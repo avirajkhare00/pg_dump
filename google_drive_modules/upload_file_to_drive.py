@@ -36,7 +36,7 @@ def upload_to_drive(source_path):
     """
     Upload a file to an Google Dive Folder.
     """
-    folder_id = json.loads(open('config/config.json',  'r').read()['google_drive_modules']['folder_id'])
+    folder_id = json.loads(open('config/config.json', 'r').read())['google_drive_modules']['folder_id']
 
     file_metadata = {
         'name': source_path,
