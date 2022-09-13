@@ -1,0 +1,15 @@
+{
+    "google_drive_modules" : {
+
+        "folder_id" : ""
+
+    },
+    "pg_dump_modules" : {
+
+        "db_user" : "",
+        "db_name" : "",
+        "backup_path" : "",
+        "backup_file_name_prefix" : ""
+
+    }
+}
